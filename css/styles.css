@@ -139,6 +139,12 @@
 }
 
 /*----------- New CSS starts here */
+
+.navbar-inner,
+.audioicon {
+  display: none !important;
+}
+
 .section-padding {
   padding-inline: 16px;
 }
@@ -289,25 +295,32 @@
 .stories-area {
   margin-top: 45px;
   padding-bottom: 80px;
+  padding-left: 18px;
+}
+
+.stories-title p {
+  text-transform: capitalize;
 }
 
 .stories-card-block {
   margin-top: 20px;
   display: flex;
   gap: 15px;
-  margin-right: -16px;
-  min-width: 422px;
-  overflow-x: scroll;
   overflow-y: hidden;
+  overflow-x: auto;
+  padding-right: 18px;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  overflow: -moz-scrollbars-none;
-  padding-right: 16px;
+}
+
+.stories-card-block::-webkit-scrollbar {
+  display: none;
 }
 
 .stories-single-card {
   height: 240px;
   width: 145px;
+  min-width: 145px;
   position: relative;
   border-radius: 8px;
   overflow: hidden;
@@ -358,6 +371,8 @@
 
 .toolbar-inner .tab-link {
   opacity: 0.6;
+  width: fit-content;
+  min-width: 82px;
 }
 
 .toolbar-inner .tab-link.tab-link-active {
@@ -365,13 +380,12 @@
 }
 
 .toolbar-inner {
-  padding: 12px 18px;
-  padding-bottom: 35px;
+  padding: 12px 38px;
   background-color: #faf7f3;
 }
 
 .toolbar.toolbar-bottom.tabbar-icons {
-  height: 106px;
+  height: 72px;
 }
 
 .main-bg-color {
