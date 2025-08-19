@@ -368,6 +368,10 @@
   opacity: 0.6;
   width: fit-content;
   min-width: 82px;
+}
+
+.toolbar-inner .tab-link,
+.toolbar-inner .tab-link .tabbar-label {
   font-family: "Birdie";
 }
 
