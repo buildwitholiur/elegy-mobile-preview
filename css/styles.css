@@ -368,6 +368,7 @@
   opacity: 0.6;
   width: fit-content;
   min-width: 82px;
+  font-family: "Birdie";
 }
 
 .toolbar-inner .tab-link.tab-link-active {
