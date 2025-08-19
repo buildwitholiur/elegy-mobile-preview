@@ -140,11 +140,6 @@
 
 /*----------- New CSS starts here */
 
-.navbar-inner,
-.audioicon {
-  display: none !important;
-}
-
 .section-padding {
   padding-inline: 16px;
 }
