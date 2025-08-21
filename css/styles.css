@@ -100,6 +100,8 @@
   white-space: wrap !important;
   line-height: 28px !important;
   text-overflow: initial;
+  min-height: 68px;
+  color: #0d0d0d;
 }
 
 .page-content {
@@ -165,6 +167,7 @@
 .continue-journey-end button {
   background: transparent;
   border: 0;
+  cursor: pointer;
 }
 
 .continue-journey-end {
@@ -293,6 +296,11 @@
   padding-left: 18px;
 }
 
+.meditation-area {
+  padding-bottom: 30px;
+  padding-left: 18px;
+}
+
 .stories-title p {
   text-transform: capitalize;
 }
@@ -390,4 +398,419 @@
 
 .main-bg-color {
   background-color: #f6f6f6;
+}
+
+.articles-card {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-top: 15px;
+  padding-bottom: 12px;
+}
+
+.articles-thumb {
+  height: 150px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.articles-thumb > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.articles-thumb-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 17px 12px;
+  width: 100%;
+}
+
+.articles-thumb-text h5 {
+  font-family: BeVietnam;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.articles-area {
+  padding-bottom: 80px;
+  padding-inline: 18px;
+}
+
+.articles-content p {
+  font-family: BeVietnam;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.articles-bottom-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles-bottom-block button {
+  font-family: BeVietnam;
+  font-weight: 500;
+  font-size: 14px;
+  vertical-align: middle;
+  border: 0;
+  width: auto;
+  background-color: transparent;
+}
+
+.meditation-area .stories-single-card {
+  height: 178px;
+  width: 276px;
+}
+
+.meditation-content-block {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: flex-start;
+}
+
+.meditation-content h5 {
+  font-family: BeVietnam;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #fff;
+}
+
+.meditation-time {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: BeVietnam;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.meditation-time span {
+  line-height: 1;
+  position: relative;
+  top: 1px;
+}
+
+.meditation-play-btn {
+  height: 37px;
+  width: 86px;
+  border-radius: 30px;
+  border: 0;
+  font-family: BeVietnam;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  padding-bottom: 3px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.community-post-area {
+  padding: 0 18px 80px 18px;
+}
+
+.recent-post-card {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.post-profile-picture {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.post-profile-picture img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.recent-post-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-profile-info h5 {
+  font-family: BeVietnam;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #010101;
+}
+
+.post-profile-info p {
+  margin: 0;
+  margin-top: 5px;
+  color: #000000;
+  font-family: BeVietnam;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.recent-post-profile-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.post-live-button a {
+  height: 36px;
+  width: 79px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80px;
+  border: 2px solid #101928;
+  padding-bottom: 3px;
+  font-family: BeVietnam;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.recent-post-contenth4 {
+  font-family: BeVietnam;
+  font-weight: 700;
+  font-size: 18px;
+  color: #010101;
+}
+
+.recent-post-content p {
+  color: #757575;
+  font-family: BeVietnam;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 16px;
+  margin-top: 5px;
+}
+
+.post-reactions {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: 1px solid #bc887233;
+}
+
+.post-reaction {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.featured-members-pictures a {
+  height: 70px;
+  width: 70px;
+  display: block;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+
+.featured-members-pictures a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.featured-members-pictures {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.featured-members {
+  margin: 20px 0;
+}
+
+.journal-history-area {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-block: 15px;
+}
+
+.journal-history-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.journal-history-content h4 {
+  font-family: "BeVietnam";
+  margin-bottom: 6px;
+  line-height: 22px;
+}
+
+.journal-history-content p {
+  font-family: "BeVietnam";
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.journal-history-thumb {
+  width: 70px;
+  height: 70px;
+  flex: 0 0 auto;
+}
+
+.journal-history-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.journal-history-card:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.support-tools-switch {
+  position: relative;
+  width: 50px;
+  height: 28px;
+  border: none;
+  border-radius: 999px;
+  background: #bbbbbb;
+  cursor: pointer;
+  transition: background 0.25s ease;
+  padding: 0;
+}
+
+.support-tools-switch-thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  background: #ffffff;
+  border-radius: 50%;
+  transition: transform 0.25s ease;
+  box-shadow: 1px 1px 2px 0px #7c6f9763;
+}
+
+.support-tools-switch.is-on {
+  background: #bc8872;
+}
+
+.support-tools-switch.is-on .support-tools-switch-thumb {
+  transform: translateX(22px);
+}
+
+.support-tools-area {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.support-tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.support-tools h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  letter-spacing: -1%;
+  font-weight: 400;
+  font-family: "Birdie";
+}
+
+.support-tools h2 span {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+}
+
+.support-tools h2 span img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.support-tools:not(:last-child) {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #bc88721a;
+}
+
+.tools-button a {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.resources-area {
+  margin-top: 25px;
+}
+
+.resources-area .stories-single-card {
+  height: 180px;
+}
+
+.post-reaction span {
+  font-family: BeVietnam;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+.recent-post-content h4 {
+  font-family: BeVietnam;
+  font-weight: 700;
+  font-size: 18px;
+  color: #010101;
 }
